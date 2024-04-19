@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_38a661adbff445389c1f5e377bc38d64 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_38a661adbff445389c1f5e377bc38d64" ></div>
+        
+</body>
+<script>    
+    
+            var map_38a661adbff445389c1f5e377bc38d64 = L.map(
+                "map_38a661adbff445389c1f5e377bc38d64",
+                {
+                    center: [31.286363, 121.214786],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0f1024f1b19842ac98045fe77a2a5431 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_38a661adbff445389c1f5e377bc38d64);
+        
+    
+            var circle_3fdf9f46f7ca4431a46a8d4e6c8cb2b3 = L.circle(
+                [31.28950141, 121.2158051],
+                {"bubblingMouseEvents": true, "color": "#9AFF9A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9AFF9A", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_38a661adbff445389c1f5e377bc38d64);
+        
+    
+        var popup_f68db66a03fc4331936e4cd686ab441f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_715fb194c4004f71ad31d00245bf587b = $(`<div id="html_715fb194c4004f71ad31d00245bf587b" style="width: 100.0%; height: 100.0%;">Laurelhurst Park</div>`)[0];
+            popup_f68db66a03fc4331936e4cd686ab441f.setContent(html_715fb194c4004f71ad31d00245bf587b);
+        
+
+        circle_3fdf9f46f7ca4431a46a8d4e6c8cb2b3.bindPopup(popup_f68db66a03fc4331936e4cd686ab441f)
+        ;
+
+        
+    
+    
+            var circle_3ced60d406894d88b034993a84708575 = L.circle(
+                [31.28950141, 121.2158051],
+                {"bubblingMouseEvents": true, "color": "#9AFF9A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9AFF9A", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_38a661adbff445389c1f5e377bc38d64);
+        
+    
+        var popup_78cd680eb6424c1888fdc179a825c370 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b55e060ff6c0476c8e0154fc491deb2c = $(`<div id="html_b55e060ff6c0476c8e0154fc491deb2c" style="width: 100.0%; height: 100.0%;">Laurelhurst Park</div>`)[0];
+            popup_78cd680eb6424c1888fdc179a825c370.setContent(html_b55e060ff6c0476c8e0154fc491deb2c);
+        
+
+        circle_3ced60d406894d88b034993a84708575.bindPopup(popup_78cd680eb6424c1888fdc179a825c370)
+        ;
+
+        
+    
+    
+            var circle_e1476151e1584faf988e4f42a8c2163c = L.circle(
+                [31.28950141, 121.2158051],
+                {"bubblingMouseEvents": true, "color": "#9AFF9A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9AFF9A", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_38a661adbff445389c1f5e377bc38d64);
+        
+    
+        var popup_ee15ee3bb7dd45d8be61783946b881cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ef45554a0504ae3b89a475f25384b05 = $(`<div id="html_1ef45554a0504ae3b89a475f25384b05" style="width: 100.0%; height: 100.0%;">Laurelhurst Park</div>`)[0];
+            popup_ee15ee3bb7dd45d8be61783946b881cd.setContent(html_1ef45554a0504ae3b89a475f25384b05);
+        
+
+        circle_e1476151e1584faf988e4f42a8c2163c.bindPopup(popup_ee15ee3bb7dd45d8be61783946b881cd)
+        ;
+
+        
+    
+    
+            var circle_663ef6caf9ae4db9824d23fc4097f183 = L.circle(
+                [31.28950141, 121.2158051],
+                {"bubblingMouseEvents": true, "color": "#FF8C69", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#FF8C69", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_38a661adbff445389c1f5e377bc38d64);
+        
+    
+        var popup_6b6ec7ae02fa4977af9224e32d9709ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cee8e96b1644170ac1c305b7ca0bdd1 = $(`<div id="html_5cee8e96b1644170ac1c305b7ca0bdd1" style="width: 100.0%; height: 100.0%;">Laurelhurst Park</div>`)[0];
+            popup_6b6ec7ae02fa4977af9224e32d9709ca.setContent(html_5cee8e96b1644170ac1c305b7ca0bdd1);
+        
+
+        circle_663ef6caf9ae4db9824d23fc4097f183.bindPopup(popup_6b6ec7ae02fa4977af9224e32d9709ca)
+        ;
+
+        
+    
+    
+            var circle_0c3ab5d997644e30beb680dd437dd6d7 = L.circle(
+                [31.28950141, 121.2158051],
+                {"bubblingMouseEvents": true, "color": "#FF8C69", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#FF8C69", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_38a661adbff445389c1f5e377bc38d64);
+        
+    
+        var popup_e02eaa6dcfb3456494085828a8fcb86b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01f8d259984c474ea1feacf528f7665f = $(`<div id="html_01f8d259984c474ea1feacf528f7665f" style="width: 100.0%; height: 100.0%;">Laurelhurst Park</div>`)[0];
+            popup_e02eaa6dcfb3456494085828a8fcb86b.setContent(html_01f8d259984c474ea1feacf528f7665f);
+        
+
+        circle_0c3ab5d997644e30beb680dd437dd6d7.bindPopup(popup_e02eaa6dcfb3456494085828a8fcb86b)
+        ;
+
+        
+    
+    
+            var circle_ad9e2319a35a4c1aa6d348110234caf2 = L.circle(
+                [31.28950141, 121.2158051],
+                {"bubblingMouseEvents": true, "color": "#FF8C69", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#FF8C69", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_38a661adbff445389c1f5e377bc38d64);
+        
+    
+        var popup_bb2968a15944487a86e8c759522cf553 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c3ef5a4a2db4eb09d8930ea0248b51e = $(`<div id="html_8c3ef5a4a2db4eb09d8930ea0248b51e" style="width: 100.0%; height: 100.0%;">Laurelhurst Park</div>`)[0];
+            popup_bb2968a15944487a86e8c759522cf553.setContent(html_8c3ef5a4a2db4eb09d8930ea0248b51e);
+        
+
+        circle_ad9e2319a35a4c1aa6d348110234caf2.bindPopup(popup_bb2968a15944487a86e8c759522cf553)
+        ;
+
+        
+    
+</script>
